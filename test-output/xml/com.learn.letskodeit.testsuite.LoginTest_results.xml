@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Lets kode it test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.632">
+  <properties />
+  
+  
+            <testcase name="verifyUserCanNavigateToLoginPage" time="8.632" classname="com.learn.letskodeit.testsuite.LoginTest" />
+      
+</testsuite>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sanity" verbose="1" >
+<groups>
+    <run>
+        <include name="sanity"></include>
+    </run>
+</groups>
+<test name="Login Test" >
+    <classes>
+        <class name="com.learn.letskodeit.testsuite.LoginTest"/>
+    </classes>
+</test>
+
+<test name="Practice Test" >
+    <classes>
+        <class name="com.learn.letskodeit.testsuite.PracticeTest"/>
+    </classes>
+</test>
+
+<test name="Sign Up Test" >
+    <classes>
+        <class name="com.learn.letskodeit.testsuite.SignUpTest"/>
+    </classes>
+</test>
+</suite>
